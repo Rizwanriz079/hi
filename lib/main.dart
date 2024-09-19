@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:settings_ui/Controller/call_controller.dart';
+import 'package:settings_ui/call/call_history.dart';
 import 'package:settings_ui/ui/order_screen.dart';
 import 'constant.dart';
 import 'custom_appbar.dart';
@@ -36,7 +37,7 @@ class MainPage extends StatelessWidget {
         scaffoldKey: GlobalKey(),
       ),
       backgroundColor: Colors.white,
-      body: CallHistoryPage(),
+      body: CallHistory(),
     );
   }
 }

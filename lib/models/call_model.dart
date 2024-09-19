@@ -1,6 +1,6 @@
 class CallModel {
   bool? isMissedCall;
-  Null? callRecording;
+  String? callRecording;
   String? sId;
   String? callId;
   String? queryId;
